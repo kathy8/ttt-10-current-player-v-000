@@ -9,5 +9,5 @@ count
 end
 
 def current_player(board)
-turn_count(board).even?  "X":"O"
+turn_count(board).even? ? "X":"O"
 end
